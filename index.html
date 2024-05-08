@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+   <div class="quiz-container">
+       <h1></h1>
+       <p id="question">PIM ย่อมาจากอะไร ?</p>
+       <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+       <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+       <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+       <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+       <p id="result"></p>
+   </div>
+  
+   <div class="quiz-container">
+    <h1></h1>
+    <p id="question">PBRU ย่อมาจากอะไร ?</p>
+    <button class="button" onclick="checkAnswer1('a')">A) มหาวิทยาลัยพิบูลสงคราม</button>
+    <button class="button" onclick="checkAnswer1('b')">B) มหาวิทยาลัยราชภัฏเพชรบูรณ์</button>
+    <button class="button" onclick="checkAnswer1('c')">C) มหาวิทยาลัยราชภัฏเพชรบุรี</button>
+    <button class="button" onclick="checkAnswer1('d')">D) มหาวิทยาลัยพัฒนศาสตร์</button>
+    <p id="result1"></p>
+</div>
+<div class="quiz-container">
+    <h1></h1>
+<p id="score"></p>
+</div>
+ <script src="index.js" charset="UTF-8"> </script>
+</body>
+</html>
